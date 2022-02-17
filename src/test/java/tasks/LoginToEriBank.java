@@ -35,6 +35,4 @@ public class LoginToEriBank implements Task {
     public static LoginToEriBank login(String username, String password){
         return instrumented(LoginToEriBank.class, username,password);
     }
-
-
 }

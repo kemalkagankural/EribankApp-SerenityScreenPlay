@@ -20,8 +20,6 @@ public class Logout implements Task {
     public static  Logout logout(){
         return  instrumented(Logout.class);
     }
-
-
 }
 
 
